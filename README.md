@@ -8,20 +8,25 @@
 ## Folder Structure
 
 ```
-src
-├── screens
-│   ├── Home
+src/
+├── screens/
+│   ├── Home/
 │   │   ├── Components/
 │   │   ├── Home.jsx
 │   │   └── index.jsx
-│   └── Settings
+│   └── Settings/
 │   │   ├── Components/
 │   │   ├── Settings.jsx
 │   │   └── index.jsx
 │   └── index.jsx
-├── data
-│   ├──
-│   │
-│   │
-
+├── data/
+│   ├── Stats/
+│   │   ├── Stats.action.js
+│   │   ├── Stats.api.js
+│   │   ├── Stats.reducer.js
+│   │   └── Stats.saga.js
+storybook/
+├── stories/
+│   ├── Button/
+│   └── Cards/
 ```
