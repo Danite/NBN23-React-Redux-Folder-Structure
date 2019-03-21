@@ -128,9 +128,16 @@ keeping your code maintainable as your application scales.
   - Used to create the Redux store using `createStore()` and connect the app to it using the `<Provider>` wrapping the component.
   - All middleware needs to be imported and applied here.
 
+## Assets
+
+  - Assets directory used to store non-source code items.
+  - Images, video, or configuration.
+
 ## Storybook
 
   - Storybook directory contain UI components.
+  - Easier and better development of UI components.
+  - Easier testing.
 
   ```
   storybook/
