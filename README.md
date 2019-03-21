@@ -63,7 +63,7 @@ keeping your code maintainable as your application scales.
   ├── app/
   │   ├── Home/
   │   ├── Following/
-  │   ├── Components/
+  │   ├── Common/
   │   └── App.jsx
   ```
 
