@@ -54,6 +54,8 @@ keeping your code maintainable as your application scales.
 
 ## Modules
 
+  The module contain the routes o views of your application.
+
   ```
   src/
   ├── app/
@@ -66,14 +68,14 @@ keeping your code maintainable as your application scales.
 ## Containers
 
   ```
-  │   │   ├── Containers/
-  │   │   │   ├── NavBar/
-  │   │   │   │   ├── NavBar.jsx
-  │   │   │   │   ├── NavBar.actions.js
-  │   │   │   │   ├── constants.js
-  │   │   │   │   ├── NavBar.reducer.js
-  │   │   │   │   ├── NavBar.saga.js
-  │   │   │   │   └── NavBar.spec.js
+  Containers/
+  ├── NavBar/
+  │   ├── NavBar.jsx
+  │   ├── NavBar.actions.js
+  │   ├── constants.js
+  │   ├── NavBar.reducer.js
+  │   ├── NavBar.saga.js
+  │   └── NavBar.spec.js
   ```
 
 ## Components or `Stateless Components`
