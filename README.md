@@ -21,37 +21,37 @@ keeping your code maintainable as your application scales.
 
 ## Folder Structure
 
-  ```
-  src/
-  ├── app/
-  │   ├── Home/
-  │   │   ├── Components/
-  │   │   │   ├── HomeButton.jsx
-  │   │   │   └── index.js
-  │   │   ├── Containers/
-  │   │   │   ├── NavBar/
-  │   │   │   │   ├── NavBar.jsx
-  │   │   │   │   ├── NavBar.actions.js
-  │   │   │   │   ├── constants.js
-  │   │   │   │   ├── NavBar.reducer.js
-  │   │   │   │   ├── NavBar.saga.js
-  │   │   │   │   └── NavBar.spec.js
-  │   │   │   ├── Footer/
-  │   │   │   └── index.js
-  │   │   ├── Home.jsx
-  │   ├── Following/
-  │   ├── Common/
-  │   └── App.jsx
-  ├── utils/
-  ├── reducers.js
-  ├── index.js
-  assets/
-  storybook/
-  ├── stories/
-  │   ├── Button/
-  │   └── Cards/
-  package.json
-  ```
+    ```
+    src/
+    ├── app/
+    │   ├── Home/
+    │   │   ├── Components/
+    │   │   │   ├── HomeButton.jsx
+    │   │   │   └── index.js
+    │   │   ├── Containers/
+    │   │   │   ├── NavBar/
+    │   │   │   │   ├── NavBar.jsx
+    │   │   │   │   ├── NavBar.actions.js
+    │   │   │   │   ├── constants.js
+    │   │   │   │   ├── NavBar.reducer.js
+    │   │   │   │   ├── NavBar.saga.js
+    │   │   │   │   └── NavBar.spec.js
+    │   │   │   ├── Footer/
+    │   │   │   └── index.js
+    │   │   ├── Home.jsx
+    │   ├── Following/
+    │   ├── Common/
+    │   └── App.jsx
+    ├── utils/
+    ├── reducers.js
+    ├── index.js
+    assets/
+    storybook/
+    ├── stories/
+    │   ├── Button/
+    │   └── Cards/
+    package.json
+    ```
 
 ## Modules
 
